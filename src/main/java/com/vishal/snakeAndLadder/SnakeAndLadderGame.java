@@ -16,9 +16,9 @@ public class SnakeAndLadderGame {
     private List<Player> winners;
     private int noOfWinPlayersCondition;
 
-    private SnakeAndLadderGame(int boardSize, Map<Integer, Integer> jumps, int noOfDice, List<Player> players,
-                              int noOfWinPlayersCondition) {
-        board = new Board(boardSize, jumps);
+    private SnakeAndLadderGame(int boardSize, int noOfDice, int noOfSnakes, int noOfLadders,
+                               List<Player> players, int noOfWinPlayersCondition) {
+        board = new Board(boardSize, noOfSnakes, noOfLadders);
         dice = new Dice(noOfDice);
 
         this.players = new LinkedList<>();
@@ -29,10 +29,10 @@ public class SnakeAndLadderGame {
         this.winners = new ArrayList<>();
     }
 
-    public static synchronized SnakeAndLadderGame getInstance(int boardSize, Map<Integer, Integer> jumps, int noOfDice,
+    public static synchronized SnakeAndLadderGame getInstance(int boardSize, int noOfDice, int noOfSnakes, int noOfLadders,
                                                               List<Player> players, int noOfWinPlayersCondition) {
         if (snakeAndLadderGame == null) {
-            snakeAndLadderGame = new SnakeAndLadderGame(boardSize, jumps, noOfDice, players, noOfWinPlayersCondition);
+            snakeAndLadderGame = new SnakeAndLadderGame(boardSize, noOfDice, noOfSnakes, noOfLadders, players, noOfWinPlayersCondition);
         }
         return snakeAndLadderGame;
     }

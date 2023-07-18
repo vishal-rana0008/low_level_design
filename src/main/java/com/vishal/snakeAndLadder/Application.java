@@ -13,7 +13,7 @@ public class Application {
         List<Player> players = new ArrayList<>();
         players.add(new Player("Rahul"));
         players.add(new Player("Aman"));
-        players.add(new Player(("Saurabh")));
+        players.add(new Player("Saurabh"));
         players.add(new Player("Kunal"));
         players.add(new Player("Rakesh"));
 
@@ -24,7 +24,7 @@ public class Application {
         jumps.put(13, 4);
         jumps.put(6, 10);
 
-        SnakeAndLadderGame snakeAndLadderGame = SnakeAndLadderGame.getInstance(4, jumps, 2, players, 3);
+        SnakeAndLadderGame snakeAndLadderGame = SnakeAndLadderGame.getInstance(100, 2, 460, 600, players, 3);
         while (true) {
             try {
                 snakeAndLadderGame.play();
