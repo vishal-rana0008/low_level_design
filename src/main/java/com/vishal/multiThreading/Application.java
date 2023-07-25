@@ -13,9 +13,6 @@ public class Application {
         thread1.start();
         thread2.start();
 
-        Thread t2 = new Thread();
-        t2.start();
-
         MyThrdClass obj = MyThrdClass.createAndStart("Thread 1");
 
         MyThrdClassA obj2 = MyThrdClassA.createAndStart("Thread 4");
