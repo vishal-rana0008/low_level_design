@@ -1,4 +1,4 @@
-package com.vishal.observerPatternWalmartQuestion;
+package com.vishal.designPatterns.observerPatternWalmartQuestion;
 
 public interface StockObserver {
     void update(StockItem stockItem, int stockCnt);

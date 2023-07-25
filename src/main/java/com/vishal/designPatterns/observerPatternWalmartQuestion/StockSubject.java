@@ -1,4 +1,4 @@
-package com.vishal.observerPatternWalmartQuestion;
+package com.vishal.designPatterns.observerPatternWalmartQuestion;
 
 public interface StockSubject {
     void register(StockObserver observer);

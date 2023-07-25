@@ -1,16 +1,16 @@
-package com.vishal.observerPatternWalmartQuestion.impl;
+package com.vishal.designPatterns.observerPatternWalmartQuestion.impl;
 
-import com.vishal.observerPatternWalmartQuestion.StockItem;
-import com.vishal.observerPatternWalmartQuestion.StockObserver;
-import com.vishal.observerPatternWalmartQuestion.StockSubject;
+import com.vishal.designPatterns.observerPatternWalmartQuestion.StockItem;
+import com.vishal.designPatterns.observerPatternWalmartQuestion.StockObserver;
+import com.vishal.designPatterns.observerPatternWalmartQuestion.StockSubject;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class LaptopStockSubject implements StockSubject {
+public class WashingMachineStockSubject implements StockSubject {
 
     private List<StockObserver> observers = new ArrayList<>();
-    private StockItem item = new StockItem("Laptop", "80,000 Rs.", "Black");
+    private StockItem item = new StockItem("Washing Machine", "15,000 Rs", "Silver");
     private int stockCnt = 0;
 
     @Override

@@ -1,9 +1,8 @@
-package com.vishal.observerPatternWalmartQuestion;
+package com.vishal.designPatterns.observerPatternWalmartQuestion;
 
-import com.vishal.observerPatternWalmartQuestion.impl.*;
+import com.vishal.designPatterns.observerPatternWalmartQuestion.impl.*;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 public class Application {
     public static void main(String[] args) {

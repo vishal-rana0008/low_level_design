@@ -1,9 +1,9 @@
-package com.vishal.observerPatternWalmartQuestion.impl;
+package com.vishal.designPatterns.observerPatternWalmartQuestion.impl;
 
-import com.vishal.observerPatternWalmartQuestion.CustomerDetail;
-import com.vishal.observerPatternWalmartQuestion.StockItem;
-import com.vishal.observerPatternWalmartQuestion.StockObserver;
-import com.vishal.observerPatternWalmartQuestion.StockSubject;
+import com.vishal.designPatterns.observerPatternWalmartQuestion.CustomerDetail;
+import com.vishal.designPatterns.observerPatternWalmartQuestion.StockItem;
+import com.vishal.designPatterns.observerPatternWalmartQuestion.StockObserver;
+import com.vishal.designPatterns.observerPatternWalmartQuestion.StockSubject;
 
 public class CustomerStockObserver implements StockObserver {
     private CustomerDetail customerDetail;
