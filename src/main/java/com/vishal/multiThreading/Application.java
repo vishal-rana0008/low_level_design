@@ -16,5 +16,13 @@ public class Application {
         MyThrdClass obj = MyThrdClass.createAndStart("Thread 1");
 
         MyThrdClassA obj2 = MyThrdClassA.createAndStart("Thread 4");
+
+
+        Calculator cal = new CalculatorImpl();
+        System.out.println(cal.sum(2,6));
+
+        Calculator cal1 = (x, y) -> x+y;
+        System.out.println(cal1.sum(2, 6));
+
     }
 }

@@ -8,4 +8,9 @@ public abstract class Chain {
     }
 
     public abstract boolean processRequest(int amt);
+
+    protected void reduceMoneyFromStore(int noteAmount, int noOfNotes, int noOfNotesUsed) {
+        MoneyStore.getDenominationMap().put(noteAmount, noOfNotes - noOfNotesUsed);
+        System.out.println("No. of " + noteAmount + " notes used : " + noOfNotesUsed);
+    }
 }

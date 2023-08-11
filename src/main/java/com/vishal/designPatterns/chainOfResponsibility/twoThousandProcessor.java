@@ -17,19 +17,14 @@ public class twoThousandProcessor extends Chain {
 
         if (remainingAmt > 0) {
             if (nextInChain != null && nextInChain.processRequest(remainingAmt)) {
-                reduceMoneyFromStore(noOf2000Notes, noOf2000NotesUsed);
+                reduceMoneyFromStore(2000, noOf2000Notes, noOf2000NotesUsed);
                 reqSatisfied = true;
             }
         } else {
-            reduceMoneyFromStore(noOf2000Notes, noOf2000NotesUsed);
+            reduceMoneyFromStore(2000, noOf2000Notes, noOf2000NotesUsed);
             reqSatisfied = true;
         }
 
         return reqSatisfied;
-    }
-
-    private void reduceMoneyFromStore(int noOf2000Notes, int noOf2000NotesUsed) {
-        MoneyStore.getDenominationMap().put(2000, noOf2000Notes - noOf2000NotesUsed);
-        System.out.println("No. of 2000 notes used : " + noOf2000NotesUsed);
     }
 }
