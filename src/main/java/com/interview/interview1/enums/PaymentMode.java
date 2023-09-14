@@ -1,4 +1,4 @@
-package com.interview.enums;
+package com.interview.interview1.enums;
 
 public enum PaymentMode {
     UPI,

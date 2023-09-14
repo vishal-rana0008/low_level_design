@@ -1,14 +1,14 @@
-package com.interview;
+package com.interview.interview1;
 
-import com.interview.enums.PaymentMode;
-import com.interview.model.*;
-import com.interview.respository.CartRepository;
-import com.interview.respository.OrderRepository;
-import com.interview.respository.ProductRepository;
-import com.interview.respository.UserDetailsRepository;
-import com.interview.service.OrderService;
-import com.interview.service.ProductAndCartService;
-import com.interview.service.UserService;
+import com.interview.interview1.enums.PaymentMode;
+import com.interview.interview1.model.*;
+import com.interview.interview1.respository.CartRepository;
+import com.interview.interview1.respository.OrderRepository;
+import com.interview.interview1.respository.ProductRepository;
+import com.interview.interview1.respository.UserDetailsRepository;
+import com.interview.interview1.service.OrderService;
+import com.interview.interview1.service.ProductAndCartService;
+import com.interview.interview1.service.UserService;
 
 import java.util.List;
 

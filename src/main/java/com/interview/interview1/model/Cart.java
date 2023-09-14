@@ -1,4 +1,4 @@
-package com.interview.model;
+package com.interview.interview1.model;
 
 import java.util.HashMap;
 import java.util.Map;

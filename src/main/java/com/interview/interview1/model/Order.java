@@ -1,8 +1,8 @@
-package com.interview.model;
+package com.interview.interview1.model;
 
-import com.interview.enums.OrderStatus;
-import com.interview.enums.PaymentMode;
-import com.interview.enums.PaymentStatus;
+import com.interview.interview1.enums.OrderStatus;
+import com.interview.interview1.enums.PaymentMode;
+import com.interview.interview1.enums.PaymentStatus;
 
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;

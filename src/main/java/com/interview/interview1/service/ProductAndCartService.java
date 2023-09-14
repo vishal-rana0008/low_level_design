@@ -1,12 +1,12 @@
-package com.interview.service;
+package com.interview.interview1.service;
 
-import com.interview.model.Cart;
-import com.interview.model.CartItem;
-import com.interview.model.Product;
-import com.interview.model.User;
-import com.interview.respository.CartRepository;
-import com.interview.respository.ProductRepository;
-import com.interview.respository.UserDetailsRepository;
+import com.interview.interview1.model.Cart;
+import com.interview.interview1.model.CartItem;
+import com.interview.interview1.model.Product;
+import com.interview.interview1.model.User;
+import com.interview.interview1.respository.CartRepository;
+import com.interview.interview1.respository.ProductRepository;
+import com.interview.interview1.respository.UserDetailsRepository;
 
 import java.util.ArrayList;
 import java.util.List;

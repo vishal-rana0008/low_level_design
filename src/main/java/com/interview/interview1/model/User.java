@@ -1,4 +1,4 @@
-package com.interview.model;
+package com.interview.interview1.model;
 
 public class User {
     String userId;

@@ -1,9 +1,11 @@
-package com.interview;
+package com.interview.interview1;
 
-import com.interview.enums.PaymentMode;
-import com.interview.model.User;
+import com.interview.interview1.enums.PaymentMode;
+import com.interview.interview1.model.User;
 
 public class Application {
+
+    // Phone pe machine coding round
     public static void main(String[] args) {
         OnlineShoppingCompany onlineShoppingCompany = OnlineShoppingCompany.getInstance();
         onlineShoppingCompany.createUser(new User("1", "Harsh", "harsh@email", "pass1", 2000));

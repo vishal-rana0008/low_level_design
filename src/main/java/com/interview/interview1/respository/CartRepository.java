@@ -1,7 +1,7 @@
-package com.interview.respository;
+package com.interview.interview1.respository;
 
-import com.interview.model.Cart;
-import com.interview.model.CartItem;
+import com.interview.interview1.model.Cart;
+import com.interview.interview1.model.CartItem;
 
 import java.util.Map;
 

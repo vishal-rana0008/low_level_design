@@ -1,9 +1,9 @@
-package com.interview.service;
+package com.interview.interview1.service;
 
-import com.interview.model.Cart;
-import com.interview.model.User;
-import com.interview.respository.CartRepository;
-import com.interview.respository.UserDetailsRepository;
+import com.interview.interview1.model.Cart;
+import com.interview.interview1.model.User;
+import com.interview.interview1.respository.CartRepository;
+import com.interview.interview1.respository.UserDetailsRepository;
 
 import java.util.Objects;
 import java.util.concurrent.ThreadLocalRandom;

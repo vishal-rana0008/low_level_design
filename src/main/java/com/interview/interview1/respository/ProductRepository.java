@@ -1,6 +1,6 @@
-package com.interview.respository;
+package com.interview.interview1.respository;
 
-import com.interview.model.Product;
+import com.interview.interview1.model.Product;
 
 import java.util.HashMap;
 import java.util.Map;
